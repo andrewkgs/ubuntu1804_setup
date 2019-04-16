@@ -76,6 +76,10 @@ sudo apt install openssh-server
 # wget https://download.mikrotik.com/routeros/winbox/3.18/winbox.exe -P ~/Desktop/
 # wine winbox.exe
 
+# wget -O ~/vmware.bin https://www.vmware.com/go/getWorkstation-linux
+# sudo bash ~/vmware.bin
+# rm ~/vmware.bin
+
 # sudo apt install google-chrome-stable
 # sudo apt remove --purge firefox
 # sudo rm -rf .mozilla/firefox/
