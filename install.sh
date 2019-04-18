@@ -126,5 +126,6 @@ sudo pip3 install scikit-learn
 sudo pip3 install scikit-image
 sudo pip3 install jupyter
 sudo pip3 install tqdm
+sudo pip3 install ipdb
 sudo pip3 install visdom
 sudo pip3 install virtualenv
