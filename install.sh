@@ -120,6 +120,7 @@ sudo pip3 install keras
 sudo pip3 install pydot
 sudo pip3 install graphviz
 sudo pip3 install pandas
+sudo pip3 install matplotlib
 sudo pip3 install imageio
 sudo pip3 install opencv-contrib-python
 sudo pip3 install scikit-learn
