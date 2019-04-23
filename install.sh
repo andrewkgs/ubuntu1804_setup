@@ -49,7 +49,7 @@ sudo apt install tmux
 # cp .tmux/.tmux.conf.local .
 # sudo mv PowerlineSymbols.otf /usr/local/share/fonts
 # fc-cache -vf /usr/local/share/fonts/
-# sudo apt-get install fonts-powerline
+# sudo apt install fonts-powerline
 
 
 #############
