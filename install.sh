@@ -113,6 +113,7 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 ## Install Python packages ##
 #############################
 sudo apt install python3-pip
+sudo pip3 install --upgrade pip
 sudo apt install python3-tk
 sudo pip3 install tensorflow-gpu
 sudo pip3 install tensorboard
