@@ -130,6 +130,8 @@ sudo pip3 install opencv-contrib-python
 sudo pip3 install scikit-learn
 sudo pip3 install scikit-image
 sudo pip3 install jupyter
+# jupyter notebook --generate-config
+# jupyter notebook password
 sudo pip3 install tqdm
 sudo pip3 install ipdb
 sudo pip3 install visdom
