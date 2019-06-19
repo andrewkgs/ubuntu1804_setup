@@ -114,26 +114,26 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 #############################
 sudo apt install python3-pip
 sudo apt install python3-tk
-sudo pip3 install tensorflow-gpu
-sudo pip3 install tensorboard
-sudo pip3 install torch
-sudo pip3 install torchvision
-sudo pip3 install torchsummary
-sudo pip3 install tensorboardX
-sudo pip3 install keras
-sudo pip3 install pydot
-sudo pip3 install graphviz
-sudo pip3 install pandas
-sudo pip3 install matplotlib
-sudo pip3 install imageio
-sudo pip3 install opencv-contrib-python
-sudo pip3 install scikit-learn
-sudo pip3 install scikit-image
-sudo pip3 install jupyter
+sudo -H pip3 install tensorflow-gpu
+sudo -H pip3 install tensorboard
+sudo -H pip3 install torch
+sudo -H pip3 install torchvision
+sudo -H pip3 install torchsummary
+sudo -H pip3 install tensorboardX
+sudo -H pip3 install keras
+sudo -H pip3 install pydot
+sudo -H pip3 install graphviz
+sudo -H pip3 install pandas
+sudo -H pip3 install matplotlib
+sudo -H pip3 install imageio
+sudo -H pip3 install opencv-contrib-python
+sudo -H pip3 install scikit-learn
+sudo -H pip3 install scikit-image
+sudo -H pip3 install jupyter
 # jupyter notebook --generate-config
 # jupyter notebook password
-sudo pip3 install tqdm
-sudo pip3 install ipdb
+sudo -H pip3 install tqdm
+sudo -H pip3 install ipdb
 sudo pip3 install visdom
 sudo pip3 install dominate
 sudo pip3 install virtualenv
