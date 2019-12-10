@@ -38,10 +38,13 @@ sudo apt install tmux
 # git clone https://github.com/andrewkgs/.tmux.git
 # ln -s -f .tmux/.tmux.conf
 # cp .tmux/.tmux.conf.local .
-# sudo mv PowerlineSymbols.otf /usr/local/share/fonts
-# fc-cache -vf /usr/local/share/fonts/
-# sudo apt install fonts-powerline
 
+# mkdir ./fonts
+# cp PowerlineSymbols.otf ./fonts/
+# fc-cache -vf ./.fonts/
+
+# cp PowerlineSymbols.otf /usr/local/share/fonts/
+# fc-cache -vf /usr/local/share/fonts/
 
 #############
 ## Openssh ##
