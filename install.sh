@@ -66,7 +66,7 @@ sudo apt install openssh-server
 # sudo apt install gnome-tweak-tool
 # gnome-tweaks
 
-# sudo apt install winehq-stable
+# sudo apt install wine64
 # wget https://download.mikrotik.com/routeros/winbox/3.18/winbox.exe -P ~/Desktop/
 # wine winbox.exe
 
@@ -92,8 +92,8 @@ sudo apt install nvidia-384
 wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda-repo-ubuntu1804-10-0-local-10.0.130-410.48_1.0-1_amd64
 sudo dpkg -i cuda-repo-ubuntu1804-10-0-local-10.0.130-410.48_1.0-1_amd64
 sudo apt-key add /var/cuda-repo-10-0-local-10.0.130-410.48/7fa2af80.pub
-sudo apt-get update
-sudo apt-get install cuda
+sudo apt update
+sudo apt install cuda
 
 # https://developer.nvidia.com/rdp/cudnn-download
 tar -xzvf cudnn-10.0-linux-x64-v7.5.0.56.tgz
