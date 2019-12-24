@@ -39,8 +39,8 @@ sudo apt install tmux
 # ln -s -f .tmux/.tmux.conf
 # cp .tmux/.tmux.conf.local .
 
-# mkdir ./fonts
-# cp PowerlineSymbols.otf ./fonts/
+# mkdir ./.fonts
+# cp PowerlineSymbols.otf ./.fonts/
 # fc-cache -vf ./.fonts/
 
 # cp PowerlineSymbols.otf /usr/local/share/fonts/
